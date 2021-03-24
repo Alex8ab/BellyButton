@@ -5,4 +5,4 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 **Objetive:** Deploy a Plotly project to GitHub Pages.
 
-The link for [Belly Button Biodiversity Dashboard](https://alex8ab.github.io/plotly-challenge/)
+The link for [Belly Button Biodiversity Dashboard](https://alex8ab.github.io/plotly-challenge/) or type https://alex8ab.github.io/plotly-challenge/
