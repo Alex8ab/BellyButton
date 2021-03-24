@@ -15,7 +15,7 @@ function optionChanged(id){
 let subjectID = d3.select("#selDataset").on("click", fillDropdown);
 // Fill the dropdown menu
 function fillDropdown(){
-    d3.json("/static/data/samples.json").then((data) => {
+    d3.json("samples.json").then((data) => {
         data.names.forEach(id => {
             subjectID.append("option").text(id).property("value", id);
         });
@@ -24,7 +24,7 @@ function fillDropdown(){
 // Create the plots
 function createCharts(id){
     // Read the json file and pass the data to the function
-    d3.json("/static/data/samples.json").then((data) => {
+    d3.json("samples.json").then((data) => {
         let sample = data.samples.filter(sampleObj => sampleObj.id == id)[0]; 
         // Set up bar plot values
         let barPlot = [
@@ -65,7 +65,7 @@ function createCharts(id){
 };
 // Fill the Demographic Info panel-card
 function createDemoInfo(id){
-    d3.json("/static/data/samples.json").then((data) => {
+    d3.json("samples.json").then((data) => {
         let meta = data.metadata.filter(metadataObj => metadataObj.id == id)[0];
         let panelCard = d3.select("#sample-metadata");
         panelCard.text("");
@@ -76,7 +76,7 @@ function createDemoInfo(id){
 };
 // Create a Gauge Indicator with week frequency washing belly button 
 function createGauge(id){
-    d3.json("/static/data/samples.json").then((data) => {
+    d3.json("samples.json").then((data) => {
         let meta = data.metadata.filter(metadataObj => metadataObj.id == id)[0];
         // console.log(meta.wfreq)
         var data = [
@@ -108,8 +108,5 @@ function createGauge(id){
         Plotly.newPlot('gauge', data, layout);
     });
 };
-
-
-
 
 init();
