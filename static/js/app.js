@@ -50,7 +50,8 @@ function createCharts(id){
                 text: sample.otu_labels,
                 marker: {
                     size: sample.sample_values,
-                    color: sample.otu_ids
+                    color: sample.otu_ids,
+                    colorscale: "Earth"
                 }
             }
         ];
