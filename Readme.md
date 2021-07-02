@@ -19,3 +19,6 @@ An interactive dashboard to explore the Belly Button Biodiversity dataset, which
 ## Deployment
 
 The dashboard is deployed in a GitHub Page. This is the link for [Belly Button Biodiversity Dashboard](https://alex8ab.github.io/plotly-challenge/) or type https://alex8ab.github.io/plotly-challenge/ . Consult [https://pages.github.com/](https://pages.github.com/) for reference. 
+
+
+![Dashboard](/Dashboard_image.png)
