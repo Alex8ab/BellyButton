@@ -22,5 +22,5 @@ The dashboard is deployed in a GitHub Page. This is the link for [Belly Button B
 
 ![Dashboard](/Dashboard.png)
 
-About the Data
-Hulcr, J. et al.(2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable. **Data Source: ** [robdunnlab.com](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
+### About the Data
+Hulcr, J. et al.(2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable. **Data Source:** [The Public Science Lab](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
