@@ -20,5 +20,7 @@ An interactive dashboard to explore the Belly Button Biodiversity dataset, which
 
 The dashboard is deployed in a GitHub Page. This is the link for [Belly Button Biodiversity Dashboard](https://alex8ab.github.io/plotly-challenge/) or type https://alex8ab.github.io/plotly-challenge/ . Consult [https://pages.github.com/](https://pages.github.com/) for reference. 
 
-
 ![Dashboard](/Dashboard.png)
+
+About the Data
+Hulcr, J. et al.(2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable. **Data Source: ** [robdunnlab.com](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
